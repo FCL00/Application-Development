@@ -1,0 +1,41 @@
+h1 {
+  margin-bottom: 20px;
+}
+
+.relative,
+.absolute,
+.fixed,
+.sticky {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Relative Position Example */
+.relative {
+  background-color: green;
+  position: relative; /* Positioned relative to its normal position */
+}
+
+/* Absolute Position Example */
+.absolute {
+  background-color: red;
+  position: absolute; /* Positioned relative to the nearest positioned ancestor */
+  top: 50px;
+  left: 50px;
+}
+
+/* Fixed Position Example */
+.fixed {
+  background-color: blue;
+  position: fixed; /* Positioned relative to the viewport */
+  top: 20px;
+  right: 20px;
+}
+
+/* Sticky Position Example */
+.sticky {
+  background-color: yellow;
+  position: sticky; /* Based on user's scroll position; becomes fixed after scrolling past a certain point */
+  top: 10px;
+}

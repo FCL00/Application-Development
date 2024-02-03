@@ -1,0 +1,19 @@
+h1 {
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* Three columns with equal width */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+  height: 100px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- https://tailwindcss.com/docs/font-size -->
+    <!-- font size -->
+    <p class="text-sm">Extra Small</p>
+    <p class="text-md">Medium</p>
+    <p class="text-lg">Large</p>
+    <p class="text-xl">Extra Large</p>
+    <p class="text-[5px]">Modified Size</p>
+
+    <!-- https://tailwindcss.com/docs/customizing-colors -->
+    <!-- color range is 50 to 900 -->
+
+    <!-- text color -->
+    <p class="text-violet-500">Violet</p>
+    <p class="text-blue-500">blue</p>
+
+    <!-- background color -->
+    <div class="bg-red-500">Background Color</div>
+    <div class="bg-green-500">Background Color</div>
+    <div class="bg-blue-500">Background Color</div>
+
+    <!-- border color-->
+    <button class="border border-emerald-700">border</button>
+    <button class="border border-blue-400">border</button>
+
+    <!-- rounded is border-radius -->
+    <button class="border rounded-md p-5 bg-emerald-500"></button>
+
+    <!-- background color -->
+    <button class="bg-emerald-700">border</button>
+    <button class="bg-blue-400">border</button>
+
+    <!-- padding  -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    <!-- pl - padding-left, pr - padding-right, pt - padding-top, pb - padding-bottom,  px - left and right, py - top and bottom -->
+    <button class="bg-red-700 p-1">border</button>
+    <button class="bg-yellow-400 p-2">border</button>
+
+    <!-- margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+    <!-- ml - margin-left, mr - margin-right, mt - margin-top, mb - margin-bottom,  mx - left and right, my - top and bottom -->
+    <div class="mx-20 bg-teal-500">Margin</div>
+
+    <!-- flexbox -->
+    <div class="flex justify-start items-center gap-1 my-16">
+      <div class="p-4 bg-[#181818]"></div>
+      <div class="p-4 bg-[#181818]"></div>
+      <div class="p-4 bg-[#181818]"></div>
+    </div>
+
+    <!-- grid -->
+    <!-- media queries sm md lg xl -->
+    <div class="grid grid-cols-4 grid-rows-4 gap-1">
+      <div class="p-12 bg-violet-500">1</div>
+      <div class="p-12 bg-violet-500">2</div>
+      <div class="p-12 bg-violet-500">3</div>
+      <div class="p-12 bg-violet-500">4</div>
+      <div class="p-12 bg-violet-500">5</div>
+      <div class="p-12 bg-violet-500">6</div>
+      <div class="p-12 bg-violet-500">7</div>
+      <div class="p-12 bg-violet-500">8</div>
+    </div>
+  </body>
+</html>

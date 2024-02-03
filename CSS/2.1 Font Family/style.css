@@ -1,0 +1,57 @@
+/* Changing font family */
+body {
+  font-family: "monospace", "sans-serif";
+}
+/* 'Helvetica', 'Times New Roman', 'Georgia' */
+
+/* Changing Font Size */
+/* h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+} */
+
+/* Changing Font Color */
+/* h1 {
+  color: #181818;
+}
+
+p {
+  color: #333;
+} */
+
+/* Making Text Bold */
+/* h1 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: 100;
+} */
+/* normal, bold, bolder, lighter*/
+
+/* Adding Underline to Text */
+/* h1 {
+  text-decoration: none;
+}
+
+p {
+  text-decoration: underline;
+} */
+
+/* Changing Text Alignment */
+/* left right justify center */
+/* h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+} */
+
+/* Setting Line Height */
+/* p {
+  line-height: 1.5;
+} */

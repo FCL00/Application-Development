@@ -1,0 +1,38 @@
+body {
+  @apply flex h-screen items-center justify-center px-5;
+}
+
+.card {
+  @apply max-w-sm rounded-md bg-[#181818];
+}
+
+.card-header .card-image {
+  @apply w-full rounded-t-md object-cover;
+}
+
+.card-body {
+  @apply p-5;
+}
+
+.card-body h1 {
+  @apply text-2xl font-bold text-white;
+}
+
+.card-body p {
+  @apply text-white;
+}
+
+.card-body button {
+  @apply mt-4 p-2 rounded-md  bg-yellow-500 text-white;
+}
+
+/* <div class="card">
+  <div class="card-header">
+    <img src="https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?q=80&w=2061&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-image" />
+  </div>
+  <div class="card-body">
+    <h1>Card Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio distinctio a corporis quis ipsam nihil autem minus earum, reprehenderit error?</p>
+    <button>Order Now!</button>
+  </div>
+</div> */
