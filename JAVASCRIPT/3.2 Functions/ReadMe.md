@@ -14,16 +14,16 @@ In JavaScript, a function is a reusable block of code that performs a specific t
 
 Here's the basic syntax for defining and invoking a function:
 
-    ```
-        // Function definition
-        function greet(name) {
-            console.log("Hello, " + name + "!");
-        }
+```
+    // Function definition
+    function greet(name) {
+        console.log("Hello, " + name + "!");
+    }
 
-        // Function invocation
-        greet("John");  // Output: Hello, John!
+    // Function invocation
+    greet("John");  // Output: Hello, John!
 
-    ```
+```
 
 # Return Statement:
 
