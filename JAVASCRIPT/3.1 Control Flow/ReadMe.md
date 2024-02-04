@@ -49,17 +49,17 @@ Here's a breakdown of some key control flow concepts:
 
 ### For Loop
 
-    ```
-        // Incrementing for loop
-        for (let i = 0; i < 5; i++) {
-            console.log(i);
-        }
+  ```
+      // Incrementing for loop
+      for (let i = 0; i < 5; i++) {
+          console.log(i);
+      }
 
-        // Decrementation for loop
-        for (let j = 5; j > 0; j--) {
-            console.log(j);
-        }
-    ```
+      // Decrementation for loop
+      for (let j = 5; j > 0; j--) {
+          console.log(j);
+      }
+  ```
 
 ### While Loop
 
