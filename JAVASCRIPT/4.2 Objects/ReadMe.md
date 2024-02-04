@@ -20,6 +20,8 @@ Add properties to objects using the dot notation or square bracket notation:
 
 ```
     // Adding properties using dot notation
+    let person = {};
+
     person.name = 'John';
     person.age = 25;
 
@@ -33,6 +35,7 @@ Retrieve values from objects using the dot notation or square bracket notation:
 
 ```
     // Accessing properties using dot notation
+    let person = { name : 'John', age : 25 }
     let personName = person.name; // personName is 'John'
 
     // Accessing properties using square bracket notation
