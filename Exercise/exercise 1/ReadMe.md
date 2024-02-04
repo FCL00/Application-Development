@@ -10,6 +10,7 @@ The grading scale is as follows:
 - F: Below 60
 
 ```
+  // This is a sample syntax 
   let examScore = 0; // change the value
   
   if (examScore) {
