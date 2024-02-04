@@ -1,0 +1,20 @@
+h1 {
+  margin-bottom: 20px;
+}
+
+.scroll-container {
+  width: 300px;
+  height: 100px;
+  overflow: auto; /* Display scrollbars when content overflows */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.hidden-overflow {
+  width: 300px;
+  height: 100px;
+  overflow: hidden; /* Hide content that overflows */
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  padding: 10px;
+}

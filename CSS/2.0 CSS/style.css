@@ -1,0 +1,11 @@
+.hero {
+  background-color: black;
+}
+
+.hero h1 {
+  color: darkred;
+}
+
+.hero p {
+  color: white;
+}

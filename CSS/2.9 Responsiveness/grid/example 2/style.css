@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 1fr; /* Sidebar fixed width, Main content takes remaining space */
+  grid-template-rows: auto 1fr auto; /* Header and Footer auto-sized, Main content takes remaining space */
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  height: 100vh; /* basically full height or full screen*/
+}
+
+.grid-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
