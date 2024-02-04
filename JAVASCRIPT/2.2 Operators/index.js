@@ -15,7 +15,7 @@ console.log(num1 * num2); // 30
 // division
 console.log(num1 / num2); // 3.3333...
 
-// modulo
+// remainder
 console.log(num1 % num2); // 1
 
 //=========================== Comparison Operators ==================================
