@@ -45,14 +45,14 @@ Objects can also contain functions, known as methods:
 
 ```
     let car = {
-    brand: 'Toyota',
-    model: 'Camry',
-    start: function() {
-        console.log('Engine started!');
-    },
-    stop: function() {
-        console.log('Engine stopped!');
-    }
+        brand: 'Toyota',
+        model: 'Camry',
+        start: function() {
+            console.log('Engine started!');
+        },
+        stop: function() {
+            console.log('Engine stopped!');
+        }
     };
 
     // Invoke or Calling methods
