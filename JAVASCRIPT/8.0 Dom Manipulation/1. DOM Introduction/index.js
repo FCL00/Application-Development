@@ -1,0 +1,1 @@
+const listItem = document.querySelector("#item-1").innerHTML = "item 1";
