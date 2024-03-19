@@ -12,6 +12,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 ```
+Note: in the example above we have font "Arial" as our default font however when that font is not available on broswer then it will use the failback font which is the sans-serif.
 ## Adjusting Font Size:
 Controlling the size of text enhances readability and visual hierarchy within the content. CSS provides a straightforward way to define font sizes for various elements.
 ```
