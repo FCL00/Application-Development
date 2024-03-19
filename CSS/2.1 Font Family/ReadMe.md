@@ -2,7 +2,7 @@
 In the realm of web design, typography plays a pivotal role in shaping user experiences and conveying information effectively. With CSS (Cascading Style Sheets), developers wield a powerful arsenal of font styling properties to elevate text presentation to new heights of sophistication. Let's delve into the art of font styling with CSS, exploring key properties, techniques, and best practices to create captivating and readable text content.
 
 ## Codepen
-Here you can the full html and css example: [Codepen](https://codepen.io/Fernando-Lagahit/pen/ZEZLqeN?editors=1100)
+Here you can view the full html and css example: [Codepen](https://codepen.io/Fernando-Lagahit/pen/ZEZLqeN?editors=1100)
 
 
 ## Setting Font Family:
