@@ -85,7 +85,7 @@ Note: `<title>` The title tag is an HTML code tag that allows you to give a web 
 ![title tag](https://seo-gold.com/images/title-tag-html.jpg)
 
 ## Paragraph tag
-The `<p>` tag, short for "`paragraph`" serves as a container for blocks of text. paragrap tag providing a means to structure and organize textual content. Whether you're sharing stories, conveying information, or presenting ideas, the <p> tag offers a flexible canvas for textual expression.
+The `<p>` tag, short for "`paragraph`" serves as a container for blocks of text. paragrahp tag providing a means to structure and organize textual content. Whether you're sharing stories, conveying information, or presenting ideas, the <p> tag offers a flexible canvas for textual expression.
 
 ## Example 1
 ```
