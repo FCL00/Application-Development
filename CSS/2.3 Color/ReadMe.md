@@ -53,7 +53,7 @@ In this example, the `<button>` element is styled with pure green (hue: 120, sat
 
 
 ## Text Color
-You can change to color of your text in your html document to that you will use the color property:
+You can change to color of your text in your html document to that you will use the `color` property:
 ```
 p {
   color: #333; /* Hexadecimal color */
@@ -69,3 +69,49 @@ em {
 ```
 In this example, different text elements (`<p>`,`<h1>`, `<em>`) are styled with varying colors using hexadecimal, RGB, and HSL color representations.
 
+## Background Color
+We can also change the background color of our elements. To do that we are going to use the `background-color` property:
+```
+body {
+  background-color: #f0f0f0;
+}
+
+div {
+  background-color: rgba(255, 0, 0);
+}
+```
+The background color of the `<body>` element and a `<div>` element is set using hexadecimal and RGB.
+
+##  Border Color
+To change the border color of the element we are going to use the "border".
+```
+button {
+  border: 1px solid #ccc;
+}
+
+input {
+  border-color: rgb(0, 128, 0);
+}
+```
+Here, `<button>` and `<input>` elements have border colors defined using both the border shorthand property and the border-color property.
+
+## Gradient Backgrounds
+The `linear-gradient()` function creates a smooth transition between two or more specified colors. In this example, a linear gradient background is applied to elements with the class `.gradient-bg`.
+```
+.gradient-bg {
+  background-image: linear-gradient(to right, #ff8a00, #da1b60);
+}
+```
+## Using Color Variables
+You can also create and declare your own color in CSS to do that you will need to use a selector `:root` and inside your place the variable name of your color.
+The `:root` selector matches the document's root element.
+```
+:root {
+  --primary-color: #007bff;
+}
+
+.button {
+  background-color: var(--primary-color);
+}
+```
+Note: CSS variables allow for the definition of reusable values, such as colors. Here, a primary color variable is defined and applied to elements with the .button class.
