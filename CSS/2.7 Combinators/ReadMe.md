@@ -73,7 +73,8 @@ h2 ~ p {
 ```
 Note: The general sibling combinator is useful for styling elements that follow a specific element within the same parent, such as paragraphs following headings in the same section.
 
-
+## Codepen Examples
+[Codepen Example](https://codepen.io/Fernando-Lagahit/pen/gOygNRZ)
 
 
 
