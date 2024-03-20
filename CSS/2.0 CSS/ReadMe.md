@@ -95,3 +95,16 @@ ID Selector: Selects a single element based on its ID attribute.
 }
 ```
 Note: This rule will apply a font size of 24 pixels to the element with the ID "`header`".
+
+## What is Specificity?
+If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win",
+and its style declaration will be applied to that HTML element.
+Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
+Every CSS selector has its place in the specificity hierarchy.
+
+There are four categories which define the specificity level of a selector:
+- inline
+- id
+- classes
+- elements
+![Specificity](https://i.ibb.co/tK2jYKM/CSS-specificity.png)
