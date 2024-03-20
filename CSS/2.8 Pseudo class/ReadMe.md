@@ -49,4 +49,4 @@ p::before {
 Note: Pseudo-elements offer flexibility in styling elements and creating decorative or informative content dynamically.
 
 ## Codepen Example
-[Codepen]()
+[Codepen](https://codepen.io/Fernando-Lagahit/pen/oNOBryy?editors=1000)
