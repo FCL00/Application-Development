@@ -108,3 +108,19 @@ There are four categories which define the specificity level of a selector:
 - classes
 - elements
 ![Specificity](https://i.ibb.co/tK2jYKM/CSS-specificity.png)
+
+## Cascade Rules:
+When multiple conflicting style rules are applied to an element, the cascade rules determine which style rule takes precedence. 
+The cascade follows a specific hierarchy based on specificity:
+```
+/* Higher specificity */
+#header .title {
+  color: blue;
+}
+
+/* Lower specificity */
+.title {
+  color: red;
+}
+```
+In this example, the color of `.title` elements within `#header` will be blue due to the higher specificity of the first rule.
