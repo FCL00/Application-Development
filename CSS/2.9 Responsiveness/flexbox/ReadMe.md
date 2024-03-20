@@ -7,7 +7,7 @@ Let's explore the various properties and capabilities of Flexbox, including its 
 
 ## Codepen Examples:
 [Codepen Example 1](https://codepen.io/Fernando-Lagahit/pen/NWmdZOq)
-
+[Codepen Example 2](https://codepen.io/Fernando-Lagahit/pen/mdgRZYY?editors=0110)
 ## Flex Properties
 Flexbox relies on properties applied to the parent container to control the layout and alignment of its child elements.
 
