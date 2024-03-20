@@ -4,7 +4,10 @@ Let's explore the basics of CSS Grid and some of its key properties:
 
 ## Codepen Examples
 [Basic Grid Example 1](https://codepen.io/Fernando-Lagahit/pen/bGJgXEp)
-[Grid Example 2](https://codepen.io/Fernando-Lagahit/pen/abxpedj?editors=1000)
+
+[Complex Grid](https://codepen.io/Fernando-Lagahit/pen/abxpedj?editors=1000)
+
+[Responsive Grid](https://codepen.io/Fernando-Lagahit/pen/abxpedj?editors=1000)
 
 ## Creating a Grid Container
 To create a grid layout, you need to define a grid container. You can do this by setting the display property of the container to grid.
