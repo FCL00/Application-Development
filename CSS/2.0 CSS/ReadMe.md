@@ -2,6 +2,12 @@
 In the ever-evolving landscape of web development, CSS (Cascading Style Sheets) stands as a cornerstone for transforming plain HTML structures into visually stunning and engaging web experiences. Let's embark on a journey to explore the boundless possibilities of CSS, uncovering its key features, techniques, and best practices to empower developers in crafting captivating and responsive designs.
 
 ## Basic Syntax
+- Properties and Values: CSS properties define the visual appearance of elements, such as color, font size, padding, margin, and border. Properties are paired with values that specify the desired styling, allowing for precise control over element presentation.
+
+- Cascade and Specificity: The "cascading" nature of CSS enables styles to be applied hierarchically, with styles from different sources (e.g., external stylesheets, internal styles, inline styles) cascading down and being overridden based on specificity and inheritance rules.
+
+- Responsive Design: CSS features like media queries enable developers to create responsive layouts that adapt to different screen sizes and devices, ensuring optimal viewing experiences across desktops, tablets, and smartphones more.
+
 ![Basic](https://www.w3schools.com/css/img_selector.gif)
 
 ## Three Ways to attach your CSS 
@@ -89,10 +95,3 @@ ID Selector: Selects a single element based on its ID attribute.
 }
 ```
 Note: This rule will apply a font size of 24 pixels to the element with the ID "`header`".
-
-- Properties and Values: CSS properties define the visual appearance of elements, such as color, font size, padding, margin, and border. Properties are paired with values that specify the desired styling, allowing for precise control over element presentation.
-
-- Cascade and Specificity: The "cascading" nature of CSS enables styles to be applied hierarchically, with styles from different sources (e.g., external stylesheets, internal styles, inline styles) cascading down and being overridden based on specificity and inheritance rules.
-
-- Responsive Design: CSS features like media queries enable developers to create responsive layouts that adapt to different screen sizes and devices, ensuring optimal viewing experiences across desktops, tablets, and smartphones more.
-
