@@ -45,8 +45,8 @@ In this example, the `overflow: auto;` rule enables scrollbars to appear automat
 .container{
    overflow-x: auto;
 
-  <!-- disable the horizontal scrolling -->
-  <!-- overflow-x: hidden; -->
+  /* disable the horizontal scrolling */
+  /* overflow-x: hidden; */
 }
 ```
 - overflow-y: represents the vertical scrollbar.
@@ -54,8 +54,8 @@ In this example, the `overflow: auto;` rule enables scrollbars to appear automat
 container{
    overflow-y: auto;
 
-  <!-- disable the vertical scrolling -->
-  <!-- overflow-y: hidden; -->
+  /* disable the vertical scrolling */
+  /* overflow-y: hidden; */
 }
 ```
 ## CodePen Demo
